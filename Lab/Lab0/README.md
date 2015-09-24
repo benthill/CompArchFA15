@@ -25,18 +25,19 @@ Ensure that the switches, buttons, and LEDs on your FPGA board are functional. Y
 ## 4 bit Full Adder - ModelSim
 In HW2 you constructed several modules in Structural Verilog and then tested them with ModelSim’s simulator.  Re-use the Full Adder component to create a 4 bit Full Adder.
 
-This module should have the following definition:
+This module must be in `adder.v`, and must have the following definition:
 
 ```verilog
-module FullAdder4bit(sum, carryout, overflow, a, b);
-  output[3:0] sum;	// 2’s complement sum of a and b
-  output carryout;	// Carry out of the summation of a and b
-  output overflow;	// True if the calculation resulted in an overflow
-  input[3:0] a;		// First operand in 2’s complement format
-  input[3:0] b;		// Second operand in 2’s complement format
+module FullAdder4bit
+(
+  output[3:0] sum,  // 2's complement sum of a and b
+  output carryout,  // Carry out of the summation of a and b
+  output overflow,  // True if the calculation resulted in an overflow
+  input[3:0] a,     // First operand in 2's complement format
+  input[3:0] b      // Second operand in 2's complement format
+);
     // Your Code Here
 endmodule
-
 ```
 
 Your code will be verified by our own test bench, so it is critical your module definition and name matches.
