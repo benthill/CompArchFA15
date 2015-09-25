@@ -62,13 +62,13 @@ Note that your test bench will need to account for the gate delays in your desig
 
 ## Full Adder on FPGA
 
-Load your tested 4 bit full adder design onto the FPGA board. 
+Use your 'adder.v' and the provided 'lab0_wrapper.v' to create a Vivado project, and load your tested 4-bit full adder design onto the FPGA board.
 
-**_ Detailed instructions coming soon _**
+Challenge: Write your own interface to the Zybo board that lets you completely test your 4-bit full adder without using 'lab0_wrapper.v'.
 
-Verify correct operation by manually inputting test cases with the switches and buttons and examining the result on the LEDs.  Choose 16 test cases that provide a reasonable amount of coverage – you’ve already tested the design in ModelSim, so you do not need to provide the same level of coverage again.
+Verify correct operation by manually inputting test cases with the switches and buttons and examining the results on the LEDs.  Choose 16 test cases that provide a reasonable amount of coverage – you’ve already tested the design in ModelSim, so you do not need to provide the same level of coverage again.
 
-Provide a photo of your FPGA correctly computing one of the 16 test cases you chose.
+Provide photos of your FPGA correctly computing one of the 16 test cases you chose.
 
 In your writeup include the full 16 test cases, why you chose them and their results.
 
