@@ -2,7 +2,7 @@
 
 **Work plan due:** Wed. October 7 at 2PM
 
-**Lab due:** Wed. October 14 at 5PM
+**Lab due:** ~~Wed. October 14~~ Thu. October 15 at 5PM
 
 
 This lab assignment creates the first component of your processor: the ALU.  Additionally, it will help you understand the timing constraints of your designs.
