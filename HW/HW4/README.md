@@ -150,11 +150,11 @@ Submit Verilog files that containing your register file and all supporting modul
 ### Deliverable 8 ###
 Expand the provided test bench to classify the following register files:
 
-1)	A fully perfect register file.  Return True when this is detected, false for all others.
-2)	Write Enable is broken / ignored – Register is always written to.
-3)	Decoder is broken – All registers are written to.
-4)	Register Zero is actually a register instead of the constant value zero.
-5)	Port 2 is broken and always reads register 17.
+1. A fully perfect register file.  Return True when this is detected, false for all others.
+1. Write Enable is broken / ignored – Register is always written to.
+1. Decoder is broken – All registers are written to.
+1. Register Zero is actually a register instead of the constant value zero.
+1. Port 2 is broken and always reads register 17.
 
 These will be graded by instantiating intentionally broken register files with your tester.  Your tester must return true (works!) or false (broken!) as appropriate.
 
