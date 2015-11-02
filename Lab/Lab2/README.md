@@ -98,8 +98,7 @@ Switches 0 and 1 allow manual control of the serial input.
 LEDs show the state of the shift register (note: you only have 4 to work with, so you will have to show a subset of bits or use the Lab 0 trick)
 
 ### Loading to FPGA ###
-
-The NINJAs have written a [quickstart guide](https://docs.google.com/document/d/1gCVD3G9wRk73NT843JtR1htCnbzCTgUvUQSzh4oTUGI/edit?usp=sharing) to help you load your SPI designs onto the Zybo and test them.
+Load the shift register and the input conditions onto the Zybo board like you have already done for Lab0.
 
 ### Midpoint Deliverables ###
 
@@ -175,7 +174,7 @@ If at any time `CS` is de-asserted (raised high), this state machine resets the 
 
 ### Load on FPGA ###
 
-Repeat the process from the Midpoint Check In to instantiate your SPI memory on the FPGA and hook up the ports for test.
+The NINJAs have written a [quickstart guide](https://docs.google.com/document/d/1gCVD3G9wRk73NT843JtR1htCnbzCTgUvUQSzh4oTUGI/edit?usp=sharing) to help you load your SPI designs as a module onto the Zybo board to test.
 
 ## SPI Memory Testing ##
 
