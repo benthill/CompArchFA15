@@ -2,7 +2,7 @@
 
 **Work Plan due:** Wednesday, November 11 at 5pm
 
-**Assembly test due:** Sunday, November 15 at 5pm
+**Assembly test due:** ~~Sunday, November 15~~ Monday, November 16 at 5pm
 
 **Lab due:** Friday, November 20 by the end of the day
 
