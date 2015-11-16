@@ -35,6 +35,10 @@ LOOP_END:
 add $v0, $t2, $zero
 add $v1, $t0, $zero
 
+# finish with infinite jump loop
+DONE:
+j DONE
+
 # Modify opA and opB to compute different quotients
 .data
 	one: .word 1
