@@ -43,6 +43,7 @@
 main:
   ...
 ```
+Also, if testing in Mars, make sure to go to `Settings -> Memory Configuration... -> Compact, Text at Address 0 -> Apply and Close`
 
 #### Non-Subset Instructions Used
 * `li`
